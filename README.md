@@ -52,7 +52,7 @@ Certified as a **Microsoft Azure AI Engineer**, with 7 additional AI-focused cer
 
 ## 🏆 Featured Projects (In this Repository)
 
-A selection of key projects demonstrating end-to-end AI solution delivery. Click on the titles to explore the **code and documentation** for each system.
+A selection of key projects demonstrating end-to-end AI solution delivery. Click on the titles to explore the **documentation** for each system. Code and client infos are anonymized per NDA compliance
 
 ### 🚀 [Strategic Sourcing Intelligence Engine — MCP Server](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/mcp-agent-microservices/PORTFOLIO_SOURCING_ENGINE.md)
 
