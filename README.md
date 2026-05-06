@@ -54,7 +54,7 @@ Certified as a **Microsoft Azure AI Engineer**, with 7 additional AI-focused cer
 
 A selection of key projects demonstrating end-to-end AI solution delivery. Click on the titles to explore the code/documentation in this repository.
 
-### 🏢 [AI-Powered Procurement Intelligence Platform — Enterprise Microservices](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/Agents%20Platform%20microservices)
+### 🏢 [AI-Powered Procurement Intelligence Platform — Enterprise Microservices](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/agents-platform-microservices)
 
 **Problem:** A Fortune 500 telecom provider needed to process thousands of government tenders efficiently. Manual PDF ingestion, data extraction, and classification created bottlenecks, while batch uploads caused system timeouts and silent failures in the AI pipeline compromised data integrity.
 
@@ -66,7 +66,7 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 ---
 
-### 🌌 [Violeta: Enterprise-Grade Multi-Agent Orchestration Ecosystem](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/SDK%20Violeta%20(Multi%20Agents))
+### 🌌 [Violeta: Enterprise-Grade Multi-Agent Orchestration Ecosystem](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/sdk-violeta-multi-agents)
 
 **Problem:** Organizations face "Agent Sprawl"—where agent logic, prompts, and model configurations are hardcoded, fragmented, and lack centralized governance or observability as AI adoption scales.
 
@@ -78,7 +78,7 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 ---
 
-### 🚀 [Strategic Sourcing Intelligence Engine — MCP Server](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/MCP%20Agent%20with%20Microservices)
+### 🚀 [Strategic Sourcing Intelligence Engine — MCP Server](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/mcp-agent-microservices)
 
 **Problem:** Procurement teams spend hours manually auditing commercial proposals and spreadsheets. Static analysis tools fail to handle unstructured financial data and complex tax logic across various file formats.
 
@@ -90,7 +90,7 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 ---
 
-### 🔧 [AI-Powered Pull Request Automation — Autonomous Code Fixing System](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/n8n%20bug%20fixing%20system)
+### 🔧 [AI-Powered Pull Request Automation — Autonomous Code Fixing System](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/n8n-bug-fixing-system)
 
 **Problem:** Development teams spend significant time on repetitive bug fixes and manual PR creation. Error-to-fix cycles are slow, and there's no systematic way to ensure proposed changes are safe and minimal before human review.
 
@@ -102,7 +102,7 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 ---
 
-### 🎯 [Agentic Market Research Team — Autonomous AI Intelligence System](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/Agentic%20in%20Slack%20built%20in%20Langraph)
+### 🎯 [Agentic Market Research Team — Autonomous AI Intelligence System](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/agentic-slack-langgraph)
 
 **Problem:** Companies struggle to understand their customers' psychological drivers. Managing multiple AI agents typically requires complex orchestration and lacks persistent learning.
 
