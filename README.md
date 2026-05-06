@@ -31,9 +31,9 @@ Certified as a **Microsoft Azure AI Engineer**, with 7 additional AI-focused cer
 
 **Data & Retrieval:** MongoDB, PostgreSQL, Vector Databases (Pinecone, Qdrant, Milvus, ChromaDB)
 
-**Observability & Evaluation:** LangSmith, tracing, prompt evaluation, monitoring, custom metrics
+**Observability & Evaluation:** LangSmith, Langfuse, tracing, prompt evaluation, monitoring, custom metrics
 
-**Additional:** OpenAI (GPT-4), Anthropic (Claude), n8n, Git
+**Automation:** n8n, low-code tools
 
 ---
 
@@ -60,9 +60,9 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 **Solution:** Developed a high-performance **MCP (Model Context Protocol)** Server that allows LLMs to act as specialized procurement agents. Implemented semantic header mapping for template-less data discovery and a multi-tier delta calculation engine for 100% audit accuracy. Built a "Stateless Restore" pattern to maintain complex analysis state across tool calls.
 
-**Stack:** Python, MCP (Model Context Protocol), Pandas, NumPy, AsyncIO, XlsxWriter, ReportLab.
-
 **Impact:** Transforms hours of manual spreadsheet auditing into seconds of AI-driven analysis. Provides automated premium dashboards and legal-ready governance PDFs.
+
+**Stack:** Python, MCP (Model Context Protocol), Pandas, NumPy, AsyncIO, XlsxWriter, ReportLab.
 
 ---
 
@@ -72,9 +72,9 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 **Solution:** Architected a modular, scalable framework that decouples agent configuration from execution logic. Features a Centralized Registry (Control Plane) for versioned metadata and a Developer SDK (Data Plane) that standardizes the development lifecycle. Includes a modular middleware system for swappable business logic and built-in tracing.
 
-**Stack:** Python, TypeScript, LangChain, FastAPI, Kubernetes (K8s), Docker, LiteLLM, Langfuse, Azure OpenAI.
-
 **Impact:** Enabled deployment of 50+ specialized agents with 60% reduction in production troubleshooting time. Eliminated "shadow AI" through centralized governance.
+
+**Stack:** Python, TypeScript, LangGraph, FastAPI, Kubernetes (K8s), Docker, LiteLLM, Langfuse, Microsoft Foundry.
 
 ---
 
@@ -84,9 +84,9 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 **Solution:** Built an end-to-end automation system that transforms error reports into validated pull requests. Uses Claude Opus for error analysis and constraint planning, Claude Sonnet for minimal diff generation. Features a 6-layer validation system (status, confidence, diff existence, language consistency, change limits, line verification).
 
-**Stack:** n8n, Claude Opus, Claude Sonnet, GitHub API, Webhooks.
-
 **Impact:** Automated the entire error-to-PR pipeline while keeping humans in the loop. PRs include AI justification and confidence levels.
+
+**Stack:** n8n, Claude models with model routing, GitHub API, Webhooks, CI/CD
 
 ---
 
@@ -96,9 +96,9 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 **Solution:** Architected a Level 5 autonomous agent system with 6 specialized AI agents that decode customer psychology. Features persistent memory via Qdrant vector database and collaborative LangGraph workflows, accessible through natural Slack commands.
 
-**Stack:** Python, LangChain, LangGraph, Anthropic Claude, Qdrant, Slack Bolt, FastAPI, Docker.
-
 **Impact:** 3x higher conversion rates using extracted language patterns. Reduced market research time from weeks to hours with continuous autonomous improvement.
+
+**Stack:** Python, LangChain, LangGraph, Anthropic Claude, Qdrant, Slack Bolt, FastAPI, Docker.
 
 ---
 
