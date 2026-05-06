@@ -50,35 +50,11 @@ Certified as a **Microsoft Azure AI Engineer**, with 7 additional AI-focused cer
 
 ---
 
-## 🏆 Featured Projects
+## 🏆 Featured Projects (In this Repository)
 
-A selection of key projects demonstrating end-to-end AI solution delivery. Click on the titles to explore the code/documentation in this repository.
+A selection of key projects demonstrating end-to-end AI solution delivery. Click on the titles to explore the **code and documentation** for each system.
 
-### 🏢 [AI-Powered Procurement Intelligence Platform — Enterprise Microservices](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/agents-platform-microservices)
-
-**Problem:** A Fortune 500 telecom provider needed to process thousands of government tenders efficiently. Manual PDF ingestion, data extraction, and classification created bottlenecks, while batch uploads caused system timeouts and silent failures in the AI pipeline compromised data integrity.
-
-**Solution:** Contributed to an enterprise-grade microservices platform featuring LLM-based data extraction, semantic embeddings, and real-time analytics. Implemented MongoDB-based job queues with HPA scaling, exponential backoff retry mechanisms, and circuit breaker patterns. Built comprehensive observability with correlation ID tracking across services and structured logging for production debugging.
-
-**Stack:** TypeScript, Node.js, Fastify, MongoDB, LangChain, Azure OpenAI, Azure Kubernetes Service (AKS), Azure DevOps, Docker, Zod, Pino
-
-**Impact:** Eliminated timeouts on batch uploads (50+ documents). Reduced integration delays through comprehensive API documentation. Enabled zero-downtime deployments with blue-green strategy and automated rollbacks.
-
----
-
-### 🌌 [Violeta: Enterprise-Grade Multi-Agent Orchestration Ecosystem](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/sdk-violeta-multi-agents)
-
-**Problem:** Organizations face "Agent Sprawl"—where agent logic, prompts, and model configurations are hardcoded, fragmented, and lack centralized governance or observability as AI adoption scales.
-
-**Solution:** Architected a modular, scalable framework that decouples agent configuration from execution logic. Features a Centralized Registry (Control Plane) for versioned metadata and a Developer SDK (Data Plane) that standardizes the development lifecycle. Includes a modular middleware system for swappable business logic and built-in tracing.
-
-**Stack:** Python, TypeScript, LangChain, FastAPI, Kubernetes (K8s), Docker, LiteLLM, Langfuse, Azure OpenAI.
-
-**Impact:** Enabled deployment of 50+ specialized agents with 60% reduction in production troubleshooting time. Eliminated "shadow AI" through centralized governance.
-
----
-
-### 🚀 [Strategic Sourcing Intelligence Engine — MCP Server](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/mcp-agent-microservices)
+### 🚀 [Strategic Sourcing Intelligence Engine — MCP Server](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/mcp-agent-microservices/PORTFOLIO_SOURCING_ENGINE.md)
 
 **Problem:** Procurement teams spend hours manually auditing commercial proposals and spreadsheets. Static analysis tools fail to handle unstructured financial data and complex tax logic across various file formats.
 
@@ -90,7 +66,19 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 ---
 
-### 🔧 [AI-Powered Pull Request Automation — Autonomous Code Fixing System](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/n8n-bug-fixing-system)
+### 🌌 [Violeta: Enterprise-Grade Multi-Agent Orchestration Ecosystem](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/sdk-violeta-multi-agents/PORTFOLIO_PROJECT.md)
+
+**Problem:** Organizations face "Agent Sprawl"—where agent logic, prompts, and model configurations are hardcoded, fragmented, and lack centralized governance or observability as AI adoption scales.
+
+**Solution:** Architected a modular, scalable framework that decouples agent configuration from execution logic. Features a Centralized Registry (Control Plane) for versioned metadata and a Developer SDK (Data Plane) that standardizes the development lifecycle. Includes a modular middleware system for swappable business logic and built-in tracing.
+
+**Stack:** Python, TypeScript, LangChain, FastAPI, Kubernetes (K8s), Docker, LiteLLM, Langfuse, Azure OpenAI.
+
+**Impact:** Enabled deployment of 50+ specialized agents with 60% reduction in production troubleshooting time. Eliminated "shadow AI" through centralized governance.
+
+---
+
+### 🔧 [AI-Powered Pull Request Automation — Autonomous Code Fixing System](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/n8n-bug-fixing-system/README.md)
 
 **Problem:** Development teams spend significant time on repetitive bug fixes and manual PR creation. Error-to-fix cycles are slow, and there's no systematic way to ensure proposed changes are safe and minimal before human review.
 
@@ -102,7 +90,7 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 ---
 
-### 🎯 [Agentic Market Research Team — Autonomous AI Intelligence System](https://github.com/juliocode-job/AI-Automation-Portfolio/tree/main/agentic-slack-langgraph)
+### 🎯 [Agentic Market Research Team — Autonomous AI Intelligence System](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/agentic-slack-langgraph/README.md)
 
 **Problem:** Companies struggle to understand their customers' psychological drivers. Managing multiple AI agents typically requires complex orchestration and lacks persistent learning.
 
@@ -111,30 +99,6 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 **Stack:** Python, LangChain, LangGraph, Anthropic Claude, Qdrant, Slack Bolt, FastAPI, Docker.
 
 **Impact:** 3x higher conversion rates using extracted language patterns. Reduced market research time from weeks to hours with continuous autonomous improvement.
-
----
-
-### 🧠 TeamBrain MVP — Secure Enterprise AI Agent
-
-**Problem:** Employees waste hours searching for information across siloed wikis, drives, and documents. No guarantee users only access data they're authorized to see.
-
-**Solution:** Built an enterprise AI assistant with a secure, ACL-aware RAG pipeline. Checks user permissions before retrieving information from vector database, ensuring data security at the core of every response.
-
-**Stack:** Python, LangChain, RAG, Flask, OpenAI GPT-4o, ChromaDB, Docker
-
-**Impact:** Instant access to authorized information with enforced access controls, significantly reducing internal data leak risk.
-
----
-
-### 🎙️ ConvoBot — Intelligent AI Meeting Assistant
-
-**Problem:** Critical decisions and action items lost in manual note-taking during meetings.
-
-**Solution:** Developed a voice-activated AI agent that joins meetings (Google Meet, Zoom), provides real-time transcription, and delivers intelligent summaries. Uses RAG to create a searchable knowledge base of all past conversations.
-
-**Stack:** Voice AI, RAG, LangChain, Whisper, FastAPI
-
-**Impact:** Automated 100% of note-taking, reduced post-meeting admin work by 90%.
 
 ---
 
