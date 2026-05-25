@@ -74,7 +74,7 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Click
 
 **Impact:** Enabled deployment of 50+ specialized agents with 60% reduction in production troubleshooting time. Eliminated "shadow AI" through centralized governance.
 
-**Stack:** Python, TypeScript, LangGraph, FastAPI, Kubernetes (K8s), Docker, LiteLLM, Langfuse, Microsoft Foundry.
+**Stack:** Python, TypeScript, CrewAI, LangGraph, FastAPI, Kubernetes (K8s), Docker, LiteLLM, Langfuse, Microsoft Foundry.
 
 ---
 
