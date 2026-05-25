@@ -83,7 +83,7 @@ The ecosystem integrates industry-standard tracing and monitoring.
 ## 🛠️ Technical Stack
 
 *   **Languages**: Python (Core), TypeScript.
-*   **Frameworks**: LangChain, FastAPI, Typer.
+*   **Frameworks**: LangChain, CrewAI, FastAPI, Typer.
 *   **Infrastructure**: Kubernetes (K8s), Docker.
 *   **AI/ML**: LiteLLM, OpenAI, Azure OpenAI, Langfuse.
 *   **Governance**: Custom Registry API with versioned metadata.
