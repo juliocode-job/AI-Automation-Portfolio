@@ -54,6 +54,18 @@ Certified as a **Microsoft Azure AI Engineer**, with 7 additional AI-focused cer
 
 A selection of key projects demonstrating end-to-end AI solution delivery. Click on the titles to explore the **documentation** for each system. Code and client infos are anonymized per NDA compliance
 
+### ⚡ [High-Performance Customer Support Crew — Multi-Agent AI Pipeline](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/production-crewai-system/README.md)
+
+**Problem:** Customer support centers suffer from massive ticket volume and high operational costs. Simple inquiries clog high-touch queues, delaying responses to critical issues and driving up API token costs.
+
+**Solution:** Architected a multi-agent ticket triaging and resolution pipeline using **CrewAI** and **Anthropic Claude**. The system features a lightning-fast Claude Haiku classifier that dynamically routes simple inquiries via an Express path (under 5 seconds) and reserves the full multi-agent sequential workflow (Sonnet & Opus) for complex inquiries. Implements native Anthropic Prompt Caching for 80% cost reduction, real-time log streaming using FastAPI SSE, an LLM-powered Semantic Cache, a local SQLite DB tuned in WAL mode, secure JWT auth, and a responsive glassmorphic operations dashboard.
+
+**Stack:** Python, FastAPI, CrewAI, Anthropic Claude, SQLite (WAL), Semantic Caching, HTML5/CSS3 (Glassmorphism), JWT, SSE (Server-Sent Events), Langfuse.
+
+**Impact:** Achieves an 85% response time reduction for routine support tickets, up to 80% savings in LLM token costs, and total data safety with custom regex-based PII anonymization and secure Human-in-the-Loop auditing.
+
+---
+
 ### 🚀 [Strategic Sourcing Intelligence Engine — MCP Server](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/mcp-agent-microservices/PORTFOLIO_SOURCING_ENGINE.md)
 
 **Problem:** Procurement teams spend hours manually auditing commercial proposals and spreadsheets. Static analysis tools fail to handle unstructured financial data and complex tax logic across various file formats.
